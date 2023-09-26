@@ -1,34 +1,34 @@
 // 1. String
 
-var name = "Ramesh"
-var lastName = "Ghimire"
-var fullName = name + " " + lastName
+var name = "Ramesh";
+var lastName = "Ghimire";
+var fullName = name + " " + lastName;
 
-console.log(fullName)
+console.log(fullName);
 
 // 2. Number
-var age = 20
-var weight = 60.5
+var age = 20;
+var weight = 60.5;
 
-console.log(age + weight)
+console.log(age + weight);
 
 // 3. Boolean
-var isMale = true
-var isFemale = false
+var isMale = true;
+var isFemale = false;
 
-console.log(isMale)
+console.log(isMale);
 
 // 4. Array
-var fruits = ["Apple", "Banana", "Orange", "Mango"]
+var fruits = ["Apple", "Banana", "Orange", "Mango"];
 
-console.log(fruits[0])
+console.log(fruits[0]);
 
 // 5.  Arrow Function
 var add = (a, b) => {
-  return a + b
-}
+  return a + b;
+};
 
-console.log(add(10, 20))
+console.log(add(10, 20));
 
 // 6. Object
 var person = {
@@ -38,69 +38,70 @@ var person = {
   isMale: true,
   isFemale: false,
   fullName: function () {
-    return this.name + " " + this.age
+    return this.name + " " + this.age;
   },
-}
+};
 
-console.log(person.fullName())
+console.log(person.fullName());
 
 // 7. If Else
-var age = 20
+var age = 20;
 
 if (age > 18) {
-  console.log("You are adult")
+  console.log("You are adult");
 } else {
-  console.log("You are child")
+  console.log("You are child");
 }
 
 // 8. For Loop
 for (var i = 0; i < 10; i++) {
-  console.log(i)
+  console.log(i);
 }
 
 // 9. While Loop
-var i = 0
+var i = 0;
 while (i < 10) {
-  console.log(i)
-  i++
+  console.log(i);
+  i++;
 }
 
 // 10. Do While Loop
-var i = 0
+var i = 0;
 do {
-  console.log(i)
-  i++
-} while (i < 10)
+  console.log(i);
+  i++;
+} while (i < 10);
 
 // 11. Switch Case
-var day = "Monday"
+var day = "Monday";
 
 switch (day) {
   case "Sunday":
-    console.log("Today is Sunday")
-    break
+    console.log("Today is Sunday");
+    break;
   case "Monday":
-    console.log("Today is Monday")
-    break
+    console.log("Today is Monday");
+    break;
   case "Tuesday":
-    console.log("Today is Tuesday")
-    break
+    console.log("Today is Tuesday");
+    break;
   case "Wednesday":
-    console.log("Today is Wednesday")
-    break
+    console.log("Today is Wednesday");
+    break;
   case "Thursday":
-    console.log("Today is Thursday")
-    break
+    console.log("Today is Thursday");
+    break;
   case "Friday":
-    console.log("Today is Friday")
-    break
+    console.log("Today is Friday");
+    break;
   case "Saturday":
-    console.log("Today is Saturday")
-    break
+    console.log("Today is Saturday");
+    break;
   default:
-    console.log("Invalid Day")
-    break
+    console.log("Invalid Day");
+    break;
 }
+
 /*
 // 12. Function
 function add(a, b) {
@@ -193,7 +194,7 @@ fetch("https://jsonplaceholder.typicode.com/todos/1")
 // 20. DOM Manipulation
 document.getElementById("demo").innerHTML = "Hello World"
 
-// 21. Event Listener
+21. Event Listener
 document.getElementById("demo").addEventListener("click", function () {
   alert("Hello World")
 })

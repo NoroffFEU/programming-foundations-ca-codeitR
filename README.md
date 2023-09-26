@@ -1,4 +1,4 @@
-# Programming foundation (ramesh)
+# Programming Foundation CA
 
 ##javascript
 -Data types- string, numbers, boolean, null, undefiend, arrys and objects.
