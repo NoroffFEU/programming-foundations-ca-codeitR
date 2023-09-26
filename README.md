@@ -1,6 +1,6 @@
 # Programming Foundation CA
 
-##javascript
+#javascript
 -Data types- string, numbers, boolean, null, undefiend, arrys and objects.
 
 -var, let, const
