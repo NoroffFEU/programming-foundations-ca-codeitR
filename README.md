@@ -4,7 +4,7 @@
 
 - Data types- string, numbers, boolean, null, undefiend, arrys and objects.
 
--var, let, const
+- var, let, const
 
 - latter cases-
   -- camel case-thisIsCa
