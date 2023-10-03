@@ -1,43 +1,99 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: var(--indigo-color-400);
 }
 
-/*grid system in body*/
-body {
-  min-height: 100vh;
-  margin: 0;
+/**
+* ! style rules for the team section
+**/
+button {
+  padding: 6px 10px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--slate-color-50);
+  background-color: var(--indigo-color-400);
 }
-header {
-  height: 5rem;
-  grid-area: header;
-  color: rgb(63, 124, 237);
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
-main {
-  grid-area: main;
-  background-color: blue;
+.profile-card {
+  position: relative;
+}
 
-  text-align: center;
+.card-title {
+  padding: 10px 0;
 }
-footer {
-  grid-area: footer;
-  background-color: yellow;
-}
-/* nav {
-  grid-area: sidebar;
-  background-color: aqua;
-} */
-@media (min-width: 900px) {
-  body {
-    display: grid;
 
-    grid-template-columns: 20rem 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas:
-      "header header"
-      "main main"
-      "footer footer";
+.team-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 60px 0;
+}
+
+.team-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/**
+* ! Style rules for badge
+**/
+
+.badge-red {
+  position: absolute;
+  color: var(--red-color-100);
+  background-color: var(--red-color-800);
+  padding: 2px 4px;
+  border-radius: 3px;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.badge-green {
+  position: absolute;
+  color: var(--green-color-100);
+  background-color: var(--green-color-800);
+  padding: 2px 4px;
+  border-radius: 3px;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+/**
+* ! Media Query rules are here
+**/
+
+@media (max-width: 1200px) {
+  .team-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .team-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 568px) {
+  .team-section {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

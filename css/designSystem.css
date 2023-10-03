@@ -1,0 +1,86 @@
+/**
+* ! Root variables
+**/
+
+:root {
+  /* color system */
+  --slate-color-50: #f8fafc;
+  --slate-color-900: #0f172a;
+
+  --gray-color-400: #9ca3af;
+
+  /* Inidigo color palette */
+  --indigo-color-300: #a5b4fc;
+  --indigo-color-400: #818cf8;
+  --indigo-color-500: #6366f1;
+
+  /* red color palette */
+
+  --red-color-100: #fee2e2;
+  --red-color-800: #991b1b;
+
+  /* Green color palette */
+
+  --green-color-100: #dcfce7;
+  --green-color-800: #166534;
+}
+
+/**
+* ! changing default style rules of the browser
+**/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--slate-color-900);
+  color: var(--slate-color-50);
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+/**
+* ! Typography rules 
+**/
+
+.primary-text {
+  color: var(--indigo-color-400);
+}
+
+.secondary-text {
+  color: var(--gray-color-400);
+  font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 740px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 568px) {
+  .container {
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "myDailyMorningRoutine": {
+    "wakeUpTime": "07:00 AM",
+    "eatBreakfast": true,
+    "getReadyInMinutes": 30,
+    "getReadyForWork": {
+      "shower": true,
+      "brushTeeth": true,
+      "getDressed": true,
+      "packLunch": false,
+      "leaveHouse": true
+    }
+  }
+}
