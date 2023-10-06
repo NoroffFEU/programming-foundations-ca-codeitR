@@ -1,12 +1,13 @@
 const TeamSection = document.getElementById("team-section");
 const shuffleBtnContainer = document.getElementById("button-container");
 
-shuffleBtnContainer.innerHTML = `<button onclick=shuffleUsers()>Click here to huffel and left top card goes first</button>`;
+shuffleBtnContainer.innerHTML = `<button onclick=shuffleUsers()>Click here to shuffel and left top card goes first</button>`;
 
 var users = [
   {
     id: 1,
     name: "Oliver",
+    age: 25,
     imgSrc: "images/1.jpg",
     title: "One Way Traffic",
     availability: true,
@@ -14,6 +15,7 @@ var users = [
   {
     id: 2,
     name: "Talitha",
+    age: 25,
     imgSrc: "images/10.jpg",
     title: "Ear Damger",
     availability: true,
@@ -31,6 +33,7 @@ var users = [
     name: "Martin",
     imgSrc: "images/4.jpeg",
     title: "Talks a lot",
+    age: 25,
     availability: true,
   },
   {
@@ -38,6 +41,7 @@ var users = [
     name: "Helen",
     imgSrc: "images/12.jpg",
     title: "Team talkative",
+    age: 25,
     availability: true,
   },
   {
@@ -45,6 +49,7 @@ var users = [
     name: "Mariya",
     imgSrc: "images/5.jpg",
     title: "world is about to end",
+    age: 25,
     availability: true,
   },
   {
@@ -59,6 +64,7 @@ var users = [
     name: "Neil",
     imgSrc: "images/8.jpg",
     title: "Talk same always",
+    age: 25,
     availability: true,
   },
   {
@@ -66,6 +72,7 @@ var users = [
     name: "Su Ann",
     imgSrc: "images/11.jpg",
     title: "today is her talk day",
+    age: 25,
     availability: true,
   },
   {
@@ -73,6 +80,7 @@ var users = [
     name: "Victor",
     imgSrc: "images/9.jpg",
     title: "let me talk,please",
+    age: 25,
     availability: true,
   },
 ];
@@ -139,6 +147,7 @@ const printCards = () => {
           <h2 class="primary-text">${item.name}</h2>
           <div class="description"></div>
           <p class="secondary-text">${item.title}</p>
+          <p class="secondary-text">${item.age + " years old"}</p>
         </div>
       </div>
     `;
