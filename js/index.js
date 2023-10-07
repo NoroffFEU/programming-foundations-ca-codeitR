@@ -1,7 +1,7 @@
 const TeamSection = document.getElementById("team-section");
 const shuffleBtnContainer = document.getElementById("button-container");
 
-shuffleBtnContainer.innerHTML = `<button onclick=shuffleUsers()>Click here to shuffel and left top card goes first</button>`;
+shuffleBtnContainer.innerHTML = `<button onclick=shuffleUsers()>Click here to shuffel</button>`;
 
 var users = [
   {
