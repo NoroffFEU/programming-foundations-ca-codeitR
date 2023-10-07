@@ -2,7 +2,7 @@
 
 ## Course Assignment
 
-# Brief:
+### Brief:
 
 - use your knowledge of programming logic and syntax to describe the world around you.
 
