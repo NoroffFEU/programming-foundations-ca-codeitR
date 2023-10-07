@@ -6,7 +6,7 @@
 
 - use your knowledge of programming logic and syntax to describe the world around you.
 
-Using JavaScript Notation, describe a real item from your everyday life as an object
+- Using JavaScript Notation, describe a real item from your everyday life as an object
 
 # Required Properties:
 
