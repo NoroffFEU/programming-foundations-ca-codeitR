@@ -289,3 +289,62 @@ sampleFunction(6666, () => console.log("i am a callback"));
 (function () {
   console.log("Greetings !");
 })();
+
+//
+/**
+ * ! How do we define objects ? what is the syntax?
+ * ? var x = { property : value }
+ * ? var x = { key : value }
+ * to solve the code repetition we use class based OOP
+ */
+
+// grades, js 80, maths 79, english 70
+
+const Joy = {
+  name: "Joy",
+  age: 20,
+  salary: 100,
+  // nested object
+  skills: {
+    js: 80,
+    maths: 70,
+    english: 70,
+  },
+};
+/**
+ * ! This is called dot notation
+ * ? to access properties of an object is called dot notation
+ */
+console.log(Joy.skills.english);
+console.log(Joy.skills.maths);
+
+/**
+ * ! Object destructuring is used to save time and code
+ * ? syntax  -> var {} = Joy   // you write it in opposite order
+ * correct order of a object -> var Joy = {}
+ */
+
+// var { name, age, salary, skills } = Joy;
+// console.log(skills.english);
+
+const Ramesh = {
+  name: "Ramesh",
+  age: 36,
+  salary: 50,
+  skills: {
+    js: 50,
+    maths: 60,
+    english: 40,
+  },
+};
+
+const Someone = {
+  name: "Someone",
+  age: 30,
+  salary: 26,
+  skills: {
+    js: 30,
+    maths: 90,
+    english: 80,
+  },
+};
