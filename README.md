@@ -10,7 +10,7 @@
 
 # Requirements:
 
-- This object must contain well-named properties that describe your chosen item.
+This object must contain well-named properties that describe your chosen item.
 
 The item must have at least one property of each of the following types:
 
