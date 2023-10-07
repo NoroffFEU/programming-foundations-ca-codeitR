@@ -8,7 +8,7 @@
 
 - Using JavaScript Notation, describe a real item from your everyday life as an object
 
-# Required Properties:
+# Requirements:
 
 - This object must contain well-named properties that describe your chosen item.
 
