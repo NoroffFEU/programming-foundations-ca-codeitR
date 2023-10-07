@@ -14,8 +14,8 @@ var users = [
   },
   {
     id: 2,
-    name: "Talitha",
-    age: 25,
+    name: "Ola",
+    age: 30,
     imgSrc: "images/10.jpg",
     title: "Ear Damger",
     availability: true,
@@ -30,7 +30,7 @@ var users = [
   },
   {
     id: 4,
-    name: "Martin",
+    name: "Norman",
     imgSrc: "images/4.jpeg",
     title: "Talks a lot",
     age: 25,
@@ -38,7 +38,7 @@ var users = [
   },
   {
     id: 5,
-    name: "Helen",
+    name: "Viking V.",
     imgSrc: "images/12.jpg",
     title: "Team talkative",
     age: 25,
@@ -46,7 +46,7 @@ var users = [
   },
   {
     id: 6,
-    name: "Mariya",
+    name: "Henrik",
     imgSrc: "images/5.jpg",
     title: "world is about to end",
     age: 25,
@@ -54,14 +54,15 @@ var users = [
   },
   {
     id: 7,
-    name: "Aaisha",
+    name: "Aasha G.",
     imgSrc: "images/7.jpg",
     title: "lets talk more",
+    age: 26,
     availability: true,
   },
   {
     id: 8,
-    name: "Neil",
+    name: "Leo L.",
     imgSrc: "images/8.jpg",
     title: "Talk same always",
     age: 25,
@@ -72,7 +73,7 @@ var users = [
     name: "Su Ann",
     imgSrc: "images/11.jpg",
     title: "today is her talk day",
-    age: 25,
+    age: 10,
     availability: true,
   },
   {
@@ -80,7 +81,7 @@ var users = [
     name: "Victor",
     imgSrc: "images/9.jpg",
     title: "let me talk,please",
-    age: 25,
+    age: 20,
     availability: true,
   },
 ];
