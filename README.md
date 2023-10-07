@@ -32,4 +32,11 @@ The item must have at least one property of each of the following types:
 
 -Logic && syntax
 
-##
+# when activated index.js:
+
+- This is site made to resolve family gatherings conflit.
+- By using this site on browser one can solve provlem who will speak first.
+
+# when activited logic.js:
+
+- learn the bascis of javascripts:
