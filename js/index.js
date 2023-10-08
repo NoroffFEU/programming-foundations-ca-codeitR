@@ -4,26 +4,28 @@ const shuffleBtnContainer = document.getElementById("button-container");
 shuffleBtnContainer.innerHTML = `<button onclick=shuffleUsers()>Click here to shuffel</button>`;
 
 var users = [
+  // array of users
   {
+    //object
     id: 1,
-    name: "Oliver",
-    age: 25,
+    name: "Oliver", //string
+    age: 25, //number
     imgSrc: "images/1.jpg",
-    title: "Speak up",
-    availability: true,
+    title: "The god father",
+    availability: true, //boolean
   },
   {
     id: 2,
     name: "Ola",
     age: 30,
     imgSrc: "images/10.jpg",
-    title: "Ear Damger",
+    title: "Grandma the ear Damger",
     availability: true,
   },
   {
     id: 3,
     name: "Ramesh",
-    age: 25,
+    age: 35,
     imgSrc: "images/6.png",
     title: "Silent Still Alive",
     availability: true,
@@ -41,7 +43,7 @@ var users = [
     name: "Viking V.",
     imgSrc: "images/12.jpg",
     title: "Team talkative",
-    age: 25,
+    age: 100,
     availability: true,
   },
   {
@@ -56,7 +58,7 @@ var users = [
     id: 7,
     name: "Aasha G.",
     imgSrc: "images/7.jpg",
-    title: "lets talk more",
+    title: "Lets talk more",
     age: 26,
     availability: true,
   },
@@ -70,15 +72,15 @@ var users = [
   },
   {
     id: 9,
-    name: "Su Ann",
+    name: "Zofia Z.",
     imgSrc: "images/11.jpg",
-    title: "today is her talk day",
+    title: "Today is her talk day",
     age: 10,
     availability: true,
   },
   {
     id: 10,
-    name: "Victor",
+    name: "Vicy V.",
     imgSrc: "images/9.jpg",
     title: "let me talk,please",
     age: 20,
@@ -87,6 +89,7 @@ var users = [
 ];
 
 const shuffleUsers = () => {
+  // array shuffel function
   var currentIndex = users.length;
 
   // Iterate over each element in the array
