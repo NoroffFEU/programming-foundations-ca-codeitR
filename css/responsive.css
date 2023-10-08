@@ -10,7 +10,11 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-
+.button a {
+  text-decoration: none;
+  border: 1px solid #000;
+  color: #000;
+}
 /* header {
 }
 nav {
