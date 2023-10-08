@@ -1,4 +1,110 @@
-body {
-	font-family: sans-serif;
-	padding: 1em 3em;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: var(--indigo-color-400);
+}
+
+/**
+* ! style rules for the team section
+**/
+button {
+  padding: 6px 10px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  border: 2px solid var(--red-color-800);
+}
+
+button:hover {
+  background-color: var(--red-color-800);
+  color: (--red-color-100);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-card {
+  position: relative;
+}
+
+.card-title {
+  padding: 10px 0;
+}
+
+.team-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 60px 0;
+}
+
+.team-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.link {
+  display: flex;
+  justify-content: center;
+
+  text-decoration: none;
+  color: var(--indigo-color-400);
+}
+/**
+* ! Style rules for badge
+**/
+
+.badge-red {
+  position: absolute;
+  color: var(--red-color-100);
+  background-color: var(--red-color-800);
+  padding: 2px 4px;
+  border-radius: 3px;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.badge-green {
+  position: absolute;
+  color: var(--green-color-100);
+  background-color: var(--green-color-800);
+  padding: 2px 4px;
+  border-radius: 3px;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+/**
+* ! Media Query rules are here
+**/
+
+@media (max-width: 1200px) {
+  .team-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .team-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 568px) {
+  .team-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
