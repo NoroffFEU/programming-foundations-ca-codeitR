@@ -9,7 +9,7 @@ var users = [
     name: "Oliver",
     age: 25,
     imgSrc: "images/1.jpg",
-    title: "One Way Traffic",
+    title: "Speak up",
     availability: true,
   },
   {

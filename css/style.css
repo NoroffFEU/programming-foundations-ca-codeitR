@@ -16,8 +16,12 @@ button {
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
-  color: var(--slate-color-50);
-  background-color: var(--indigo-color-400);
+  border: 2px solid var(--red-color-800);
+}
+
+button:hover {
+  background-color: var(--red-color-800);
+  color: (--red-color-100);
 }
 .button-container {
   display: flex;
@@ -47,7 +51,13 @@ button {
   object-fit: cover;
   border-radius: 8px;
 }
+.link {
+  display: flex;
+  justify-content: center;
 
+  text-decoration: none;
+  color: var(--indigo-color-400);
+}
 /**
 * ! Style rules for badge
 **/

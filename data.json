@@ -10,5 +10,35 @@
       "packLunch": false,
       "leaveHouse": true
     }
+  },
+
+  "myDailyEveningRoutine": {
+    "eatDinner": true,
+    "getReadyForBed": {
+      "brushTeeth": true,
+      "washFace": true,
+      "changeIntoPajamas": true,
+      "setAlarm": true,
+      "goToSleep": true
+    }
+  },
+
+  "myDailyWorkRoutine": {
+    "workFromHome": false,
+    "workFromOffice": true,
+    "workFromOfficeHours": {
+      "start": "09:00 AM",
+      "end": "05:00 PM"
+    }
+  },
+  "myDailyWeekendRoutine": {
+    "sleepIn": true,
+    "eatBreakfast": true,
+    "getReadyForTheDay": {
+      "shower": true,
+      "brushTeeth": true,
+      "getDressed": true,
+      "leaveHouse": true
+    }
   }
 }
