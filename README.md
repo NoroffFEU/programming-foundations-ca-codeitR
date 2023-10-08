@@ -20,6 +20,14 @@ The item must have at least one property of each of the following types:
 - Array
 - Function
 
+# USERS OBJECT:
+
+- name(strings)
+- age(number)
+- availability(boolean)
+- users data(array)
+- shuffel it has function(arrow)
+
 # javascript
 
 - Data types- string, numbers, boolean, null, undefiend, arrys and objects.
